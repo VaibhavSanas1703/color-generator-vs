@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Color Generator</title>
+     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+     <link rel="stylesheet" href="./style.css">
+     <script src="./js/app.js" defer></script>
+</head>
+<body>
+     
+     <div class="container">
+          <div class="gradient-box"></div>
+          <div class="custom-box">
+               <div class="direction">
+                    <select id="selectMenu">
+                         <option value="to top">Top</option>
+                         <option value="to right">Right</option>
+                         <option value="to bottom">Bottom</option>
+                         <option value="to left">Left</option>
+                         <option value="to top left">To Top Left</option>
+                         <option value="to top right">To Top Right</option>
+                         <option value="to right top">To Right Top</option>
+                         <option value="to right bottom">To Right Bottom</option>
+                         <option value="to bottom left">To Bottom Left</option>
+                         <option value="to bottom right">To Bottom Right</option>
+                         <option value="to left top">To Left Top</option>
+                         <option value="to left bottom">To Left Bottom</option>
+                    </select>
+               </div>
+               <div class="custom-inputs">
+                    <input type="color">
+                    <input type="color">
+               </div>
+          </div>
+          <div class="gradient-information">
+               <p>background: linear-gradient(to top,#0000,#0000)</p>
+          </div>
+          <div class="bottom-btns">
+               <button class="refresh">Refresh Color</button>
+               <button class="copy">Copy</button>
+          </div>
+     </div>
+
+</body>
+</html>
